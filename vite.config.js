@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-   pablicPath: `/VueNotesApp/`,
+   publicPath: `/VueNotesApp/`,
    plugins: [vue()],
    resolve: {
       alias: {
